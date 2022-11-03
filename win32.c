@@ -4,6 +4,8 @@
 */
 #ifdef _WIN32
 
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
+
 #define ENET_BUILDING_LIB 1
 #include "enet/enet.h"
 #include <windows.h>
